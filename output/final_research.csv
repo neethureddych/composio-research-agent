@@ -1,0 +1,464 @@
+﻿app_name,category,website,docs_url,page_title,description,status_code,research_status,evidence_url,auth_methods,credential_access,api_type,api_coverage,existing_mcp,buildability,main_blocker,evidence_checked,verification_status
+Slack,Communication,https://slack.com,https://api.slack.com,Build an app with a coding agent | Slack Developer Docs,"Build Slack agents, apps, and integrations with a coding agent, the Slack CLI, or app settings.",200,Page fetched - manual verification required,https://docs.slack.dev/authentication/,OAuth 2.0; bot tokens; user tokens; app-level tokens,Self-serve app creation; OAuth 2.0 authorization by workspace users; access controlled by requested scopes,REST,Messaging; channels; users; files; conversations; search; reactions,Yes - official Slack MCP server,High for common messaging and channel workflows,Workspace authorization and requested scopes determine access. Web API uses HTTP RPC-style methods.,https://docs.slack.dev/authentication/; https://docs.slack.dev/authentication/tokens/; https://docs.slack.dev/apis/web-api/,Manually verified against official documentation
+Discord,Communication,https://discord.com,https://discord.com/developers/docs,Discord Developer Platform - Documentation - Discord,"Build bots and integrations on Discord, or connect your game with rich presence, voice chat, and more.",200,Page fetched - manual verification required,https://discord.com/developers/docs,Not verified,Self-serve Developer Portal application and bot creation; OAuth 2.0 or bot-token authentication,Not verified,Not verified,Not verified,Not verified,Adding an app to a server requires appropriate permissions. Some privileged capabilities have additional requirements.,https://discord.com/developers/docs/topics/oauth2; https://discord.com/developers/docs/quick-start/getting-started; https://discord.com/developers/docs/interactions/slash-commands,Credential access verified; other research fields pending
+Microsoft Teams,Communication,https://www.microsoft.com/microsoft-teams,https://learn.microsoft.com/graph/teams-concept-overview,"Overview for using Microsoft Teams, Shifts, and Viva Learning to foster teamwork - Microsoft Graph | Microsoft Learn","Microsoft Teams is the ultimate hub for team collaboration and intelligent communications, fostering a culture where employees can thrive.",200,Page fetched - manual verification required,https://learn.microsoft.com/graph/teams-concept-overview,Not verified,Self-serve app registration; Microsoft Graph delegated and application permissions,Not verified,Not verified,Not verified,Not verified,Admin consent is required for application permissions. Delegated permissions may depend on organization consent settings.,https://learn.microsoft.com/microsoftteams/app-permissions,Credential access verified; other research fields pending
+Zoom,Communication,https://zoom.us,https://developers.zoom.us/docs/api/,API Reference - API - Zoom Developer Docs,Explore a wide variety of Zoom API endpoints and events to power your applications and integrations.,200,Page fetched - manual verification required,https://developers.zoom.us/docs/api/,Not verified,"Self-serve OAuth app creation through Zoom App Marketplace, subject to developer permissions",Not verified,Not verified,Not verified,Not verified,Supports user-based OAuth 2.0 and Server-to-Server OAuth. Developer permissions and scope approval may be required.,https://developers.zoom.us/docs/integrations/create/; https://developers.zoom.us/docs/api/authentication/; https://developers.zoom.us/docs/internal-apps/s2s-oauth/,Credential access verified; other research fields pending
+Google Meet,Communication,https://meet.google.com,https://developers.google.com/workspace/meet/api/guides/overview,Google Meet REST API overview  |  Google for Developers,,200,Page fetched - manual verification required,https://developers.google.com/workspace/meet/api/guides/overview,Not verified,Self-serve Google Cloud project and OAuth consent setup,Not verified,Not verified,Not verified,Not verified,Users authorize requested OAuth scopes. Sensitive or restricted scopes can require additional verification.,https://developers.google.com/workspace/meet/api/guides/authenticate-authorize,Credential access verified; other research fields pending
+Gmail,Communication,https://mail.google.com,https://developers.google.com/gmail/api,Gmail API overview  |  Google for Developers,,200,Page fetched - manual verification required,https://developers.google.com/gmail/api,Not verified,Self-serve Google Cloud project and OAuth setup,Not verified,Not verified,Not verified,Not verified,Sensitive and restricted Gmail scopes can require Google verification and additional security assessment.,https://developers.google.com/workspace/gmail/api/auth/scopes,Credential access verified; other research fields pending
+Outlook,Communication,https://outlook.live.com,https://learn.microsoft.com/graph/api/resources/mail-api-overview,Use the Outlook mail REST API - Microsoft Graph v1.0 | Microsoft Learn,Microsoft Graph lets your app get authorized access to a user's Outlook mail data in a personal or organization account.,200,Page fetched - manual verification required,https://learn.microsoft.com/graph/api/resources/mail-api-overview,Not verified,Self-serve Microsoft Entra app registration; OAuth 2.0 authorization,Not verified,Not verified,Not verified,Not verified,Delegated permissions can involve user consent. Application permissions generally require administrator consent.,https://learn.microsoft.com/en-us/graph/auth-v2-service,Credential access verified; other research fields pending
+Intercom,Communication,https://www.intercom.com,https://developers.intercom.com,Intercom Developers | Intercom and Fin Developer Platform,"Faster resolutions, higher CSAT, and lighter support volumes with the only platform to combine the power of automation and human customer support.",200,Page fetched - manual verification required,https://developers.intercom.com,Not verified,Self-serve app creation and OAuth setup; private apps can use access tokens,Not verified,Not verified,Not verified,Not verified,Public integrations require customer authorization. Private integrations use workspace access tokens.,https://developers.intercom.com/docs/build-an-integration/learn-more/authentication,Credential access verified; other research fields pending
+Zendesk,Communication,https://www.zendesk.com,https://developer.zendesk.com/api-reference/,API Reference Home | Zendesk Developer Docs,Developer documentation for products at Zendesk,200,Page fetched - manual verification required,https://developer.zendesk.com/api-reference/,Not verified,Self-serve OAuth client configuration by a Zendesk administrator,Not verified,Not verified,Not verified,Not verified,Creating an OAuth client requires Zendesk admin access. Supports authorization-code and client-credentials flows.,https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/; https://developer.zendesk.com/documentation/authentication/using-oauth-to-authenticate-zendesk-api-requests-in-a-web-app/,Credential access verified; other research fields pending
+Twilio,Communication,https://www.twilio.com,https://www.twilio.com/docs/usage/api,Twilio API overview | Twilio,"Learn how to authenticate your requests to the Twilio APIs, what content type to use for API requests, and how the Twilio APIs handle webhooks.",200,Page fetched - manual verification required,https://www.twilio.com/docs/usage/api,Not verified,Self-serve API key creation through Twilio Console,Not verified,Not verified,Not verified,Not verified,"Main, Standard and Restricted API keys offer different access levels. Keys can be managed through the Console.",https://www.twilio.com/docs/iam/api-keys/keys-in-console; https://www.twilio.com/docs/iam/api-keys,Credential access verified; other research fields pending
+Notion,Productivity,https://www.notion.so,https://developers.notion.com,Notion API quickstart,Create a page in your Notion workspace with a personal access token and a single API request.,200,Page fetched - manual verification required,https://developers.notion.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Asana,Productivity,https://asana.com,https://developers.asana.com,Asana Docs,,200,Page fetched - manual verification required,https://developers.asana.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Trello,Productivity,https://trello.com,https://developer.atlassian.com/cloud/trello/,Get Started Building on Trello,,200,Page fetched - manual verification required,https://developer.atlassian.com/cloud/trello/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Jira,Productivity,https://www.atlassian.com/software/jira,https://developer.atlassian.com/cloud/jira/platform/rest/v3/,The Jira Cloud platform REST API,,200,Page fetched - manual verification required,https://developer.atlassian.com/cloud/jira/platform/rest/v3/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Linear,Productivity,https://linear.app,https://developers.linear.app,Linear Developers,Learn about building apps and integrations for Linear using the GraphQL API and TypeScript SDK.,200,Page fetched - manual verification required,https://developers.linear.app,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+ClickUp,Productivity,https://clickup.com,https://clickup.com/api,ClickUp,,200,Page fetched - manual verification required,https://clickup.com/api,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Monday.com,Productivity,https://monday.com,https://developer.monday.com/api-reference/docs,The basics,The monday GraphQL API allows developers to programmatically access and update data inside a monday.com account. It is part of the monday apps framework.,200,Page fetched - manual verification required,https://developer.monday.com/api-reference/docs,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Airtable,Productivity,https://airtable.com,https://airtable.com/developers/web/api/introduction,Airtable Web API,"Airtable is a low-code platform for building collaborative apps. Customize your workflow, collaborate, and achieve ambitious outcomes. Get started for free.",200,Page fetched - manual verification required,https://airtable.com/developers/web/api/introduction,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Todoist,Productivity,https://todoist.com,https://developer.todoist.com,Todoist Developers — Build with Todoist,"The developer hub for every Todoist app: APIs, SDKs, MCP servers, CLIs, and webhooks for Todoist, Todoist Comms, and Todoist Automations, built for developers and AI agents.",200,Page fetched - manual verification required,https://developer.todoist.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Evernote,Productivity,https://evernote.com,https://dev.evernote.com,Evernote Developers,Connect Evernote to your AI tools with the Model Context Protocol (MCP).,200,Page fetched - manual verification required,https://dev.evernote.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Google Drive,Storage,https://drive.google.com,https://developers.google.com/drive/api,Google Drive API overview  |  Google for Developers,Explore the features of the Google Drive API that you can use to integrate apps with Google Drive cloud storage and the Drive UI.,200,Page fetched - manual verification required,https://developers.google.com/drive/api,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Dropbox,Storage,https://www.dropbox.com,https://www.dropbox.com/developers/documentation,Welcome | Dropbox API Documentation,Build powerful integrations with the Dropbox platform,200,Page fetched - manual verification required,https://www.dropbox.com/developers/documentation,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+OneDrive,Storage,https://www.microsoft.com/onedrive,https://learn.microsoft.com/graph/api/resources/onedrive,Working with files in Microsoft Graph - Microsoft Graph v1.0 | Microsoft Learn,"You can use Microsoft Graph to create an app that connects with files across OneDrive, OneDrive for Business, and SharePoint document libraries.",200,Page fetched - manual verification required,https://learn.microsoft.com/graph/api/resources/onedrive,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Box,Storage,https://www.box.com,https://developer.box.com,Home - Box Dev Docs,"Build with the Box Platform. Explore guides, API reference, SDKs, and tutorials for content management, Box AI, e-signatures, and enterprise integrations.",200,Page fetched - manual verification required,https://developer.box.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Google Cloud Storage,Storage,https://cloud.google.com/storage,https://cloud.google.com/storage/docs/json_api,Cloud Storage JSON API overview  |  Google Cloud Documentation,,200,Page fetched - manual verification required,https://cloud.google.com/storage/docs/json_api,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+AWS S3,Storage,https://aws.amazon.com/s3,https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html,Welcome - Amazon S3,Welcome to the Amazon S3 API Reference. This guide explains the Amazon Simple Storage Service (Amazon S3) application programming interface (API).,200,Page fetched - manual verification required,https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Cloudinary,Storage,https://cloudinary.com,https://cloudinary.com/documentation,Cloudinary Image & Video API Platform - Docs Home Page | Documentation,"Search for Developer and DAM how-to info, find out What's New, learn about our SDKs, Add-ons, and Integrations, watch video tutorials, and more.",200,Page fetched - manual verification required,https://cloudinary.com/documentation,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Supabase,Storage,https://supabase.com,https://supabase.com/docs/reference,Supabase API references,Supabase is the Postgres development platform providing all the backend features you need to build a product.,200,Page fetched - manual verification required,https://supabase.com/docs/reference,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Firebase,Storage,https://firebase.google.com,https://firebase.google.com/docs/reference,Firebase API Reference,,200,Page fetched - manual verification required,https://firebase.google.com/docs/reference,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Imgur,Storage,https://imgur.com,https://apidocs.imgur.com,Imgur API,"## API Status
+
+Status for the API can be found at [status.imgur.com](http://status.imgur.com)!
+
+## Getting Started
+
+Imgur's API exposes the entire Imgur infrastructure via a standardized programmatic interface. Using Imgur's API, you can do just about anything you can do on imgur.com, while using your programming language of choice. The Imgur API is a RESTful API based on HTTP requests and JSON responses.
+
+This version of the API, version 3, uses OAuth 2.0. This means that all requests will need to be encrypted and sent via HTTPS. It also means that you need to register your application, even if you aren't allowing users to login.
+
+The easiest way to start using the Imgur API is by clicking the **Run in Postman** button above. [Postman](https://www.getpostman.com/) is a free tool which helps developers run and debug API requests, and is the source of truth for this documentation. Every endpoint you see documented here is readily available by running our Postman collection.
+
+## Example code
+
+These examples serve as a starting point to help familiarize you with the basics of the Imgur API.
+
+- [Official Python library](https://github.com/Imgur/imgurpython)
+- [Android Upload Example](https://github.com/AKiniyalocts/imgur-android)
+- [Older Example Android app](https://github.com/talklittle/ImgurAPIv3ExampleAndroid)
+- [Example HTML5/JavaScript app](https://github.com/eirikb/gifie) - [Javascript OAuth](https://gist.github.com/eirikb/7404666)—[Live Demo](http://eirikb.github.io/gifie/) (uses your webcam)
+- [Example Objective C library](https://github.com/geoffmacd/ImgurSession)
+    
+
+## Need help?
+
+The Imgur engineers are always around answering questions. The quickest way to get help is by posting your question on StackOverflow with the [Imgur tag](https://stackoverflow.com/questions/tagged/imgur).
+
+## Register an Application (IMPORTANT)
+
+Each client must register their application and receive the `client_id` and `client_secret`.
+
+For public read-only and anonymous resources, such as getting image info, looking up user comments, etc. all you need to do is send an authorization header with your client_id in your requests. This also works if you'd like to upload images anonymously (without the image being tied to an account), or if you'd like to create an anonymous album. This lets us know which application is accessing the API.
+
+```
+Authorization: Client-ID 
+
+```
+
+### Registration Quickstart
+
+If you are just getting started, an easy way to explore the endpoints is by creating an application using following instructions below.
+
+1. Download [Postman](https://www.getpostman.com/) and click the **Run in Postman** button at the top of this page. This will load our collection of endpoints into Postman for easy debugging.
+2. [Register your application](https://api.imgur.com/oauth2/addclient) using the postman callback URL: `https://www.getpostman.com/oauth2/callback`
+3. In Postman, under the main request builder panel, click the Authorization tab. Click the **Get New Access Token** button. Set **Auth URL** to `https://api.imgur.com/oauth2/authorize` and **Access Token URL** to `https://api.imgur.com/oauth2/token`. Add the **Client ID** and **Client Secret** you received from registering your application above, then click **Request Token**
+4. After logging in and granting access to your application, you should receive a refresh token.Copy this refresh token, then click the gear icon in the top right of Postman. Click **Manage Environments** then **Add**, and add the `refreshToken`, `clientId`, and `clientSecret` fields as shown below
+5. Inside the **Account** folder, run the **Generate Access Token** endpoint. The response you receive will give you an access token which will be valid for about a month. This token is automatically saved to your Postman environment via the JavaScript test for that endpoint as seen below. Whenever your token expires, just re-run this endpoint and a new token will be saved to your environment.
+6. Run any endpoint within the collection. You have authorized your app and logged in with your username, so you are now making authenticated requests against the Imgur API. Happy hacking!
+    
+
+## Commercial Usage
+
+Your application is commercial if you're making any money with it (which includes in-app advertising), if you plan on making any money with it, or if it belongs to a commercial organization.
+
+To use Imgur's API commercially, you must first [register your application](https://api.imgur.com/oauth2/addclient). Once that's done, you must [register with RapidAPI](https://rapidapi.com/imgur/api/imgur-9). RapidAPI allows you to choose a pricing plan that fits your needs. From then on, the API endpoint is `https://imgur-apiv3.p.rapidapi.com/` which must be used in place of `https://api.imgur.com/`. Additionally, you must set a `X-Mashape-Key` request header with the key obtained from RapidAPI.
+
+## Endpoints
+
+The API is accessed by making HTTP requests to a specific version endpoint URL, in which GET or POST variables contain information about what you wish to access. Every endpoint is accessed via an SSL-enabled HTTPS (port 443), this is because everything is using OAuth 2.0.
+
+Everything (methods, parameters, etc.) is fixed to a version number, and every call must contain one. Different Versions are available at different endpoint URLs. The latest version is Version 3.
+
+The stable HTTP endpoint for the latest version is:  
+`https://api.imgur.com/3/`
+
+## Responses
+
+Each response is wrapped in a data tag. This means if you have a response, it will always be within the data field. We also include a status code and success flag in the response. For more information and examples go to the [data models](https://api.imgur.com/models) page.
+
+Responses are either JSON (the default), JSONP, or XML. Response formats are specified by supplying an extension to the API call. For example, if you want to access the gallery information with JSON:
+
+```
+https://api.imgur.com/3/gallery.json
+
+```
+
+JSONP responses are made by adding the callback parameter via either GET or POST to the request. For example:
+
+```
+https://api.imgur.com/3/gallery.json?callback=function_name
+
+```
+
+and to specify an XML response, the URL is:
+
+```
+https://api.imgur.com/3/gallery.xml
+
+```
+
+## Paging Results
+
+For the most part, if the API action is plural, you can page it via a query string parameter.
+
+NOTE: /gallery endpoints do not support the perPage query string, and /album/{id}/images is not paged.
+
+| Query String Parameter | Required | Description |
+| --- | --- | --- |
+| page | optional | Page number of the result set (default: 0) |
+| perPage | optional | Limit the number of results per page. (default: 50, max: 100) |
+
+Example:
+
+```
+https://api.imgur.com/3/account/imgur/images/0.json?perPage=42&amp;page=6
+
+```
+
+## Authentication
+
+The API requires each client to use OAuth 2 authentication. This means you'll have to [register your application](https://api.imgur.com/oauth2/addclient), and generate an access_code if you'd like to log in as a user.  
+For public read-only and anonymous resources, such as getting image info, looking up user comments, etc. all you need to do is send an authorization header with your client_id in your requests. This also works if you'd like to upload images anonymously (without the image being tied to an account), or if you'd like to create an anonymous album. This lets us know which application is accessing the API.
+
+```
+Authorization: Client-ID 
+
+```
+
+For accessing a user's account, please visit the OAuth2 section of the docs.  
+OAuth Endpoints  
+To access OAuth, the following endpoints must be used:
+
+```
+https://api.imgur.com/oauth2/addclient
+https://api.imgur.com/oauth2/authorize
+https://api.imgur.com/oauth2/token
+
+```
+
+You can also verify your OAuth 2.0 tokens by setting your header and visiting the page
+
+```
+https://api.imgur.com/oauth2/secret
+
+```
+
+## Rate Limits
+
+The Imgur API uses a credit allocation system to ensure fair distribution of capacity. Each application can allow _approximately 1,250 uploads per day or approximately 12,500 requests per day_. If the daily limit is hit five times in a month, then the app will be blocked for the rest of the month. The remaining credit limit will be shown with each requests response in the `X-RateLimit-ClientRemaining` HTTP header.
+
+We also limit each user (via their IP Address) for each application, this is to ensure that no single user is able to spam an application. This limit will simply stop the user from requesting more data for an hour. We recommend that each application takes precautions against spamming by implementing rate limiting on their own applications. Each response will also include the remaining credits for each user in the `X-RateLimit-UserLimit` HTTP header.
+
+Each request contains rate limit information in the HTTP response headers.
+
+| HTTP Header | Description |
+| --- | --- |
+| X-RateLimit-UserLimit | Total credits that can be allocated. |
+| X-RateLimit-UserRemaining | Total credits available. |
+| X-RateLimit-UserReset | Timestamp (unix epoch) for when the credits will be reset. |
+| X-RateLimit-ClientLimit | Total credits that can be allocated for the application in a day. |
+| X-RateLimit-ClientRemaining | Total credits remaining for the application in a day. |
+
+Unless otherwise noted, an API call deducts 1 credit from your allocation. However, uploads have a significantly higher computational cost on our back-end, and deduct 10 credits per call. All OAuth calls, such as refreshing tokens or authorizing users, do not deduct any credits.  
+You can also check the current rate limit status on your application by sending a GET request to
+
+```
+https://api.imgur.com/3/credits
+
+```
+
+Your use of the Imgur API is also limited by the number of POST requests your IP can make across all endpoints. This limit is _1,250 POST requests per hour_. [Commercial Usage](http://api.imgur.com/#commercial) is not impacted by this limit. Each POST request will contain the following headers.
+
+| HTTP Header | Description |
+| --- | --- |
+| X-Post-Rate-Limit-Limit | Total POST credits that are allocated. |
+| X-Post-Rate-Limit-Remaining | Total POST credits available. |
+| X-Post-Rate-Limit-Reset | Time in seconds until your POST ratelimit is reset |
+
+# Authorization and OAuth
+
+## OAuth 2.0 Overview
+
+The Imgur API uses OAuth 2.0 for authentication. OAuth 2.0 has four steps: registration, authorization, making the request, and getting new access_tokens after the initial one expired.
+
+- [Registration](https://api.imgur.com/oauth2/addclient) gives you your `client_id` and `client_secret`, which is then used to authorize the user to your app.
+- Authorization is the process of the user saying ""I would like YourSuperAwesomeImgurApp to access my data"". YourSuperAwesomeImgurApp cannot access the user's account without them agreeing to it. After they agree, you will get refresh and access tokens.
+    - `access_token`: is your secret key used to access the user's data. It can be thought of the user's password and username combined into one, and is used to access the user's account. It expires after 1 month.
+    - `refresh_token`: is used to request new access_tokens. Since access_tokens expire after 1 month, we need a way to request new ones without going through the entire authorization step again. It does not expire.
+    - `authorization_code`: is used for obtaining the the access and refresh tokens. It's purpose is to be immediately exchanged for an access_token and refresh_token.
+    - Finally, after obtaining your access_token, you make your API requests by sending the Authorization header as such:  
+        `Authorization: Bearer YOUR_ACCESS_TOKEN`
+- Registration
+    
+
+Each client must register their application and receive the client_id and client_secret.
+
+For public read-only and anonymous resources, such as getting image info, looking up user comments, etc. all you need to do is send an authorization header with your client_id in your requests. This also works if you'd like to upload images anonymously (without the image being tied to an account), or if you'd like to create an anonymous album. This lets us know which application is accessing the API.
+
+```
+Authorization: Client-ID YOUR_CLIENT_ID
+
+```
+
+## Authorization
+
+&gt; _NOTE:_ If your app is not only requesting public read-only information, then you may skip this step.
+
+To access a user's account, the user must first authorize your application so that you can get an access token. Requesting an access token is fairly straightforward: point a browser (pop-up, or full page redirect if needed) to a URL and include a set of query string parameters.
+
+```
+https://api.imgur.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&amp;response_type=REQUESTED_RESPONSE_TYPE&amp;state=APPLICATION_STATE
+
+```
+
+The user will now be able to enter their password and accept that they'd like to use your application. Once this happens, they will be redirected to your redirect URL (that you entered during registration) with the access token. You can now send the access token in the headers to access their account information.
+
+#### Forming the authorization URL
+
+Authorization Endpoint: `https://api.imgur.com/oauth2/authorize`
+
+| Parameter | Values | Description |
+| --- | --- | --- |
+| response_type | `token`, `code`, or `pin` | _Only_ _`token`_ _should be used, as the other methods have been deprecated._ Determines if Imgur returns an access_token, authorization_code (_deprecated_), or a PIN code(_deprecated_). When using `token`, the `access_token` and `refresh_token` will be given to you in the form of query string parameters attached to your redirect URL, which the user may be able to read. |
+| client_id | the Client ID you recieved from registration | Indicates the client that is making the request. |
+| state | any string | This optional parameter indicates any state which may be useful to your application upon receipt of the response. Imgur round-trips this parameter, so your application receives the same value it sent. Possible uses include redirecting the user to the correct resource in your site, nonces, and cross-site-request-forgery mitigations. |
+
+#### The `response_type` Parameter
+
+`token`: This authorization flow will directly return the `access_token` and `refresh_token` via the redirect URL you specified during registration, in the form of hash query string parameters. Example: `http://example.com?access_token=ACCESS_TOKEN&amp;token_type=Bearer&amp;expires_in=3600`
+
+The `code` and `pin` response types have been deprecated and will soon no longer be supported.
+
+### Handling the Authorization Response
+
+The response will be sent to the redirect URL that was specified during registration. The contents and format of the response is determined by the value of the response_type parameter.  
+You're able to change your applications redirect URL at any time by accessing the ['apps' section of your account settings](http://imgur.com/account/settings/apps).
+
+#### JavaScript responses for the response_type: `token`
+
+Imgur returns an access token to your application if the user grants your application the permissions it requested. The access token is returned to your application in the fragment as part of the `access_token` parameter. Since a fragment (the part of the URL after the `#`) is not sent to the server, client side javascript must parse the fragment and extract the value of the `access_token` parameter.  
+Other parameters included in the response include `expires_in` and `token_type`. These parameters describe the lifetime of the token in seconds, and the kind of token that is being returned. If the `state` parameter was included in the request, then it is also included in the response.  
+An example User Agent flow response is shown below:
+
+```
+https://example.com/oauthcallback#access_token=ACCESS_TOKEN&amp;token_type=Bearer&amp;expires_in=3600
+
+```
+
+Below is a JavaScript snippet that parses the response and returns the parameters to the server.
+
+``` js
+// First, parse the query string
+var params = {}, queryString = location.hash.substring(1),
+    regex = /([^&amp;=]+)=([^&amp;]*)/g, m;
+while (m = regex.exec(queryString)) {
+  params[decodeURIComponent(m[1])] = decodeURIComponent(m[2]);
+}
+// And send the token over to the server
+var req = new XMLHttpRequest();
+// consider using POST so query isn't logged
+req.open('GET', 'https://' + window.location.host + '/catchtoken?' + queryString, true);
+req.onreadystatechange = function (e) {
+  if (req.readyState == 4) {
+     if(req.status == 200){
+       window.location = params['state']
+   }
+  else if(req.status == 400) {
+        alert('There was an error processing the token.')
+    }
+    else {
+      alert('something else other than 200 was returned')
+    }
+  }
+};
+req.send(null);
+
+```
+
+This code sends the parameters received on the fragment to the server using XMLHttpRequest and writes the access token to local storage in the browser. The latter is an optional step, and depends on whether or not the application requires other JavaScript code to make calls to the Imgur API. Also note that this code sends the parameters to the token endpoint, and they are sent over an HTTPS channel.
+
+#### Error Response
+
+The Imgur API returns an error if the user did not grant your application the permissions it requested. The error is returned to the application in the query string parameter error if the web server flow is used. If the user agent flow was used, then the error is returned in the fragment. If the state parameter was included in the request, it is also present in the error response.
+
+An example error response for the web server flow is shown below:
+
+```
+https://example.com/oauthcallback?error=access_denied
+
+```
+
+### Making your requests
+
+Congrats! You must have the user's access_token at this point and you're ready to start making API requests to their account. All that's required for this is to set the header in your requests:
+
+```
+Authorization: Bearer YOUR_ACCESS_TOKEN
+
+```
+
+### Refresh Tokens
+
+If a user has authorized their account but you no longer have a valid access_token for them, then a new one can be generated by using the refresh_token.
+
+When your application receives a refresh token, it is important to store that refresh token for future use. If your application loses the refresh token, you will have to prompt the user for their login information again.
+
+To obtain a new access token, your application performs a POST to `https://api.imgur.com/oauth2/token`. The request must include the following parameters to use a refresh token:
+
+| Field | Description |
+| --- | --- |
+| refresh_token | The refresh token returned from the authorization code exchange |
+| client_id | The client_id obtained during application registration |
+| client_secret | The client secret obtained during application registration |
+| grant_type | As defined in the OAuth2 specification, this field must contain a value of: `refresh_token` |
+
+As long as the user has not revoked the access granted to your application, the response includes a new access token. A response from such a request is shown below:
+
+``` json
+{
+    ""access_token"":""5c3118ebb73fbb275945ab340be60b610a3216d6"",
+    ""refresh_token"":""d36b474c95bb9ee54b992c7c34fffc2cc343d0a7"",
+    ""expires_in"":3600,
+    ""token_type"":""Bearer"",
+    ""account_username"":""saponifi3d""
+}
+
+```
+
+### More OAuth 2 help and documentation
+
+For more information about how to use OAuth 2, please visit the great documentation from Google. At the time of writing, our OAuth 2 server is completely compatible with theirs. The documentation may be found here: [https://developers.google.com/accounts/docs/OAuth2](https://developers.google.com/accounts/docs/OAuth2)
+
+# Performance Tips
+
+Below are a few ways you can speed up your application's use of the Imgur API.
+
+If you have any additional feature requests, please reach out on Twitter [@imgurAPI](https://twitter.com/imgurAPI)!
+
+### ETag Support
+
+The Imgur API supports [ETags](http://en.wikipedia.org/wiki/HTTP_ETag), which allows the API to signal to developers whether or not data from previous queries have changed.
+
+Usage:
+
+1. When fetching from the Imgur API, the response header will include an ETag with a digest of the response data. Save this ETag value for future requests to the same route.An example ETag response header:`ETag: ""a695f4e9672bf7fc7a779ac12ead684d72292506""`
+2. On the next request to the same route, include a If-None-Match header in the request with the ETag from the first step. (Note: the quotations around the hash must be included)An example ETag request header:`If-None-Match: ""a695f4e9672bf7fc7a779ac12ead684d72292506""`
+3. If the data hasn't changed, the response status code will be _304_ (Not Modified) and no data will be returned.
+4. If the response data has changed since the last request, the data is returned normally with a new ETag in the response header. Save this value for future requests.
+    _Note:_ Although ETags help speed up your application, requests with the _If-None-Match_ header will still count towards rate limits.
+    
+
+# API Deprecation
+
+When an API endpoint is scheduled for deprecation the following actions will be taken:
+
+1. The endpoint documentation will be marked as deprececated and a migration plan will be added.
+2. The endpoint will have a `Sunset` header ([Sunset HTTP Header](https://tools.ietf.org/id/draft-wilde-sunset-header-03.html)) added to incidate the last date the endpoint should be relied upon.
+3. A email will be sent to active third party developers notifing of the deprecation.
+4. A entry to the API changelog table will be added.
+    
+
+When the `Sunset` date has passed followup email will be sent to active third party developers notifing of the deprecation.
+
+## API Changelog
+
+| Date Introduced | Available Until | Endpoint |
+| --- | --- | --- |
+|  |  |  |
+
+## Additional Information
+
+If you have questions that aren't answered here, the [support page](https://help.imgur.com/hc/en-us/requests/new) provides details on how to get help.",200,Page fetched - manual verification required,https://apidocs.imgur.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+HubSpot,CRM,https://www.hubspot.com,https://developers.hubspot.com/docs/api/overview,2026-09 API reference - HubSpot docs,Reference documentation for HubSpot's 2026-09 APIs,200,Page fetched - manual verification required,https://developers.hubspot.com/docs/api/overview,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Salesforce,CRM,https://www.salesforce.com,https://developer.salesforce.com/docs/apis,,,403,HTTP response - manual review required,https://developer.salesforce.com/docs/apis,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Documentation access issue; investigate manually,Not verified,Manual review required
+Pipedrive,CRM,https://www.pipedrive.com,https://developers.pipedrive.com,Pipedrive Developers Corner | Pipedrive API sandbox,"Sign up for a Sandbox Account and build integrations with our API and developer platform to reach over 100,000 companies through the Pipedrive Marketplace.",200,Page fetched - manual verification required,https://developers.pipedrive.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Zoho CRM,CRM,https://www.zoho.com/crm,https://www.zoho.com/crm/developer/docs/api/v7/,Zoho CRM V7 APIs,Use Zoho CRM's V7 APIs to create custom solutions to your requirements and integrate third-party applications seamlessly with Zoho CRM.,200,Page fetched - manual verification required,https://www.zoho.com/crm/developer/docs/api/v7/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Freshsales,CRM,https://www.freshworks.com/crm,https://developers.freshworks.com/crm/api/,Freshsales | Refreshingly new CRM & Deal Management Software,Freshsales is a refreshingly new CRM that is packed with features to boost your sales team's productivity.,200,Page fetched - manual verification required,https://developers.freshworks.com/crm/api/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Copper,CRM,https://www.copper.com,https://developer.copper.com,Getting started - Copper Developer API,The Copper Developer API provides a RESTful interface with JSON-formatted responses to access most Copper resources,200,Page fetched - manual verification required,https://developer.copper.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Close,CRM,https://www.close.com,https://developer.close.com,Close Developer Platform | Close | Developer API Documentation,"Build integrations, automate workflows, and extend Close for your team.",200,Page fetched - manual verification required,https://developer.close.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Keap,CRM,https://keap.com,https://developer.keap.com,Keap Developer Portal,"Documentation, reference, and tools for every Keap API: CRM, Services, and more.",200,Page fetched - manual verification required,https://developer.keap.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+ActiveCampaign,CRM,https://www.activecampaign.com,https://developers.activecampaign.com,ActiveCampaign,,200,Page fetched - manual verification required,https://developers.activecampaign.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Intercom CRM,CRM,https://www.intercom.com,https://developers.intercom.com,Intercom Developers | Intercom and Fin Developer Platform,"Faster resolutions, higher CSAT, and lighter support volumes with the only platform to combine the power of automation and human customer support.",200,Page fetched - manual verification required,https://developers.intercom.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Stripe,Payments,https://stripe.com,https://docs.stripe.com/api,Stripe API Reference,,200,Page fetched - manual verification required,https://docs.stripe.com/api,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+PayPal,Payments,https://www.paypal.com,https://developer.paypal.com/api/rest/,Get started with PayPal REST APIs | PayPal Developer,"Get started with PayPal REST APIs, including orders, payments, subscriptions, invoicing, and disputes.",200,Page fetched - manual verification required,https://developer.paypal.com/api/rest/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Razorpay,Payments,https://razorpay.com,https://razorpay.com/docs/api/,"Razorpay API Reference — REST API Docs, Endpoints & Postman",Get started with Razorpay APIs and test them on Postman. Generate API Keys in Test and Live Modes.,200,Page fetched - manual verification required,https://razorpay.com/docs/api/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Square,Payments,https://squareup.com,https://developer.squareup.com/reference/square,Square API Reference,"This API Reference has all the detailed API endpoint information you need to build with our APIs. Square APIs let you take payments securely, integrate your application with Square first-party products, and do so much more",200,Page fetched - manual verification required,https://developer.squareup.com/reference/square,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Adyen,Payments,https://www.adyen.com,https://docs.adyen.com/api-explorer/,Home | Adyen API Explorer,The Adyen API makes it easy to accept hundreds of payment methods globally. Use the Adyen API Explorer to send test requests and learn about the API.,200,Page fetched - manual verification required,https://docs.adyen.com/api-explorer/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Braintree,Payments,https://www.braintreepayments.com,https://developer.paypal.com/braintree/docs,Braintree Docs,"Our mission is to empower developers with the tools, 
+  resources, and simple-to-use SDKs and APIs to build on 
+  one platform, so they can serve merchants from around the world.",200,Page fetched - manual verification required,https://developer.paypal.com/braintree/docs,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Wise,Payments,https://wise.com,https://docs.wise.com/api-docs,Global Payments API: Send & Receive Money | Wise Platform,"Wise Platform offer domestic and cross-border payments tools for technology platforms, banks and financial institutions.",200,Page fetched - manual verification required,https://docs.wise.com/api-docs,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Mollie,Payments,https://www.mollie.com,https://docs.mollie.com/reference,Mollie API overview | Mollie Documentation,With the Mollie API you can integrate online payments by Mollie directly into your website or app. In most common cases you can rely fully on one of our pre-built integrations. Refer to Set up Mollie for more information. For more advanced cases we have Mollie API packages available for the most pop…,200,Page fetched - manual verification required,https://docs.mollie.com/reference,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Chargebee,Payments,https://www.chargebee.com,https://apidocs.chargebee.com/docs/api,Getting started | Chargebee API documentation,Chargebee API documentation,200,Page fetched - manual verification required,https://apidocs.chargebee.com/docs/api,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Paddle,Payments,https://www.paddle.com,https://developer.paddle.com/api-reference/overview,API reference | Paddle Developer Docs,"Use the Paddle API to create, read, and update information in your Paddle system, and integrate Paddle into your app.",200,Page fetched - manual verification required,https://developer.paddle.com/api-reference/overview,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Shopify,E-commerce,https://www.shopify.com,https://shopify.dev/docs/api,"Shopify APIs, libraries, and tools","Explore Shopify's APIs, references, and developer tools. Find the right resources for building apps, storefronts, themes, and integrations.",200,Page fetched - manual verification required,https://shopify.dev/docs/api,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+WooCommerce,E-commerce,https://woocommerce.com,https://woocommerce.github.io/woocommerce-rest-api-docs/,WooCommerce REST API Documentation - WP REST API v3,,200,Page fetched - manual verification required,https://woocommerce.github.io/woocommerce-rest-api-docs/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+BigCommerce,E-commerce,https://www.bigcommerce.com,https://developer.bigcommerce.com/docs,BigCommerce Developers | BigCommerce Docs,"Build, customize, and scale on the BigCommerce platform.",200,Page fetched - manual verification required,https://developer.bigcommerce.com/docs,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Magento,E-commerce,https://business.adobe.com/products/magento/magento-commerce.html,https://developer.adobe.com/commerce/webapi/rest/,REST API Overview,Overview of the Adobe Commerce and Magento Open Source REST API documentation.,200,Page fetched - manual verification required,https://developer.adobe.com/commerce/webapi/rest/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Etsy,E-commerce,https://www.etsy.com,https://developers.etsy.com/documentation/,Etsy Open API v3 | Etsy Open API v3,"Welcome to the improved Etsy Open API v3, a REST API that extends support for inventory, sales orders, and shop management on the Etsy platform. These guides support current and future app developers as they build tools to integrate with and automate processes for Etsy shops and customers.",200,Page fetched - manual verification required,https://developers.etsy.com/documentation/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+eBay,E-commerce,https://www.ebay.com,https://developer.ebay.com/develop/apis,Develop | eBay Developers Program,,200,Page fetched - manual verification required,https://developer.ebay.com/develop/apis,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Amazon Selling Partner,E-commerce,https://sell.amazon.com,https://developer-docs.amazon.com/sp-api/,Selling Partner API,,200,Page fetched - manual verification required,https://developer-docs.amazon.com/sp-api/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Wix,E-commerce,https://www.wix.com,https://dev.wix.com/docs,"Wix Developer Documentation, APIs & Guidelines | Wix Docs","Browse comprehensive Wix developer documentation, API references, and general best practices to build custom websites, apps, and headless experiences.",200,Page fetched - manual verification required,https://dev.wix.com/docs,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Squarespace,E-commerce,https://www.squarespace.com,https://developers.squarespace.com,"Squarespace Developer Platform: APIs, Apps, and Docs","Build and publish apps on the Squarespace Developer Platform. Use Commerce APIs, webhooks, a custom code spec, and MCP support for Claude and ChatGPT.",200,Page fetched - manual verification required,https://developers.squarespace.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Webflow,E-commerce,https://webflow.com,https://developers.webflow.com,Webflow Developer Platform,"Build apps, deploy full-stack projects, and extend Webflow with APIs, SDKs, Cloud, Code Components, and MCP. Docs, integrations, and developer resources.",200,Page fetched - manual verification required,https://developers.webflow.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Mailchimp,Marketing,https://mailchimp.com,https://mailchimp.com/developer/marketing/api/,List API root resources | Mailchimp | Developer,Get links to all other resources available in the API.,200,Page fetched - manual verification required,https://mailchimp.com/developer/marketing/api/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Brevo,Marketing,https://www.brevo.com,https://developers.brevo.com,Overview | Brevo API Documentation,Build integrations with the Brevo API,200,Page fetched - manual verification required,https://developers.brevo.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Klaviyo,Marketing,https://www.klaviyo.com,https://developers.klaviyo.com,Klaviyo Developers,"Guides, API reference and developer tools for building apps and integrations with Klaviyo.",200,Page fetched - manual verification required,https://developers.klaviyo.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+ConvertKit,Marketing,https://convertkit.com,https://developers.kit.com,Kit Developer Documentation,,200,Page fetched - manual verification required,https://developers.kit.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Customer.io,Marketing,https://customer.io,https://customer.io/docs/api/,About Customer.io's APIs - Customer.io Documentation,"We have three APIs and webhooks. This page covers our APIs and the best ways to get data into and out of Customer.io if you're using a terminal, Postman, or writing your own integration.",200,Page fetched - manual verification required,https://customer.io/docs/api/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+SendGrid,Marketing,https://sendgrid.com,https://www.twilio.com/docs/sendgrid/api-reference,SendGrid v3 API reference | SendGrid Docs | Twilio,The SendGrid API reference provides detailed descriptions and code samples for every Twilio SendGrid API.,200,Page fetched - manual verification required,https://www.twilio.com/docs/sendgrid/api-reference,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Postmark,Marketing,https://postmarkapp.com,https://postmarkapp.com/developer,Introduction | Postmark Developer Documentation,"Postmark API and developer documentation home with home about integration, API, webhooks and a user guide.",200,Page fetched - manual verification required,https://postmarkapp.com/developer,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Campaign Monitor,Marketing,https://www.campaignmonitor.com,https://www.campaignmonitor.com/api/,API Documentation for Campaign Monitor | Campaign Monitor,Everything you need to know about Campaign Monitor's API documentation can be found here. Try Campaign Monitor for free today!,200,Page fetched - manual verification required,https://www.campaignmonitor.com/api/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Marketo,Marketing,https://business.adobe.com/products/marketo/adobe-marketo.html,https://developers.marketo.com/rest-api/,Home | Adobe Marketo Engage,"Master Marketo Engage APIs with docs for Getting Started, REST, Webhooks, client libraries, email scripting, lead tracking, mobile, and web personalization.",200,Page fetched - manual verification required,https://developers.marketo.com/rest-api/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Plausible,Analytics,https://plausible.io,https://plausible.io/docs/stats-api,Plausible Stats API reference | Plausible docs,Complete reference for the Plausible Stats API v2. Query historical and real-time analytics data via a single HTTP endpoint using POST requests.,200,Page fetched - manual verification required,https://plausible.io/docs/stats-api,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Google Analytics,Analytics,https://analytics.google.com,https://developers.google.com/analytics,Google Analytics  |  Google for Developers,"With Google Analytics, you can fine-tune your digital strategy, optimize your campaigns, and take your online presence to new heights.",200,Page fetched - manual verification required,https://developers.google.com/analytics,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Mixpanel,Analytics,https://mixpanel.com,https://developer.mixpanel.com/reference/overview,Overview - Mixpanel,"Overview of Mixpanel's APIs for ingesting, querying, and exporting data and managing metadata, with regional server URLs for each API",200,Page fetched - manual verification required,https://developer.mixpanel.com/reference/overview,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Amplitude,Analytics,https://amplitude.com,https://amplitude.com/docs/apis,APIs | Amplitude Docs,"Use Amplitude's REST APIs to ingest data, query analytics, and manage Amplitude programmatically.",200,Page fetched - manual verification required,https://amplitude.com/docs/apis,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+PostHog,Analytics,https://posthog.com,https://posthog.com/docs/api,API overview - Docs - PostHog,"PostHog has a powerful API that enables you to capture, evaluate, create, update, and delete nearly all of your information in PostHog. You can use it…",200,Page fetched - manual verification required,https://posthog.com/docs/api,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Segment,Analytics,https://segment.com,https://segment.com/docs,Twilio Segment | Twilio,"Twilio Segment is a customer data platform (CDP) that collects, cleans, and activates customer data, sending events to hundreds of tools with one API.",200,Page fetched - manual verification required,https://segment.com/docs,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Heap,Analytics,https://heap.io,https://developers.heap.io,Overview,"Easily install Heap on almost any platform We believe in holistic, cross-platform tracking to truly understand your users’ experiences, so we try to make Heap as easy to install as possible on most platforms and frameworks. These are the ones we support out-of-the-box. Auto denotes SDKs with built-i…",200,Page fetched - manual verification required,https://developers.heap.io,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Matomo,Analytics,https://matomo.org,https://developer.matomo.org/api-reference,Introduction: API Reference - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6,,200,Page fetched - manual verification required,https://developer.matomo.org/api-reference,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Datadog,Analytics,https://www.datadoghq.com,https://docs.datadoghq.com/api/,Datadog API Reference,"Browse the Datadog API reference: endpoints, schemas, request and response examples for managing dashboards, monitors, logs, metrics, and more.",200,Page fetched - manual verification required,https://docs.datadoghq.com/api/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Sentry,Analytics,https://sentry.io,https://docs.sentry.io/api/,API Reference | Sentry Docs,,200,Page fetched - manual verification required,https://docs.sentry.io/api/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+GitHub,Developer Tools,https://github.com,https://docs.github.com/en/rest,GitHub REST API documentation - GitHub Docs,"Create integrations, retrieve data, and automate your workflows with the GitHub REST API.",200,Page fetched - manual verification required,https://docs.github.com/en/rest,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+GitLab,Developer Tools,https://gitlab.com,https://docs.gitlab.com/ee/api/,Extend with GitLab | GitLab Docs,Connect GitLab to your tools and workflows to build a customized development environment.,200,Page fetched - manual verification required,https://docs.gitlab.com/ee/api/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Bitbucket,Developer Tools,https://bitbucket.org,https://developer.atlassian.com/cloud/bitbucket/rest/,The Bitbucket Cloud REST API,,200,Page fetched - manual verification required,https://developer.atlassian.com/cloud/bitbucket/rest/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Vercel,Developer Tools,https://vercel.com,https://vercel.com/docs/rest-api,,,200,Page fetched - manual verification required,https://vercel.com/docs/rest-api,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Netlify,Developer Tools,https://www.netlify.com,https://docs.netlify.com/api/get-started/,Get started with the Netlify API | Netlify Docs,"Use our REST API to interact with our platform. Learn the basics for using the API, instructions for deploying sites, and notes on commonly used endpoints.",200,Page fetched - manual verification required,https://docs.netlify.com/api/get-started/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Sentry Dev,Developer Tools,https://sentry.io,https://docs.sentry.io/api/,API Reference | Sentry Docs,,200,Page fetched - manual verification required,https://docs.sentry.io/api/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Postman,Developer Tools,https://www.postman.com,https://learning.postman.com/docs/developer/intro-api/,Integrate Postman into your development toolchain | Postman Docs,Overview of the Postman API for integrating Postman into your development toolchain.,200,Page fetched - manual verification required,https://learning.postman.com/docs/developer/intro-api/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Docker Hub,Developer Tools,https://hub.docker.com,https://docs.docker.com/reference/api/hub/latest/,Docker Hub API 2-beta | Docker Docs,"Docker Hub HTTP API reference, version 2-beta.",200,Page fetched - manual verification required,https://docs.docker.com/reference/api/hub/latest/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+LaunchDarkly,Developer Tools,https://launchdarkly.com,https://apidocs.launchdarkly.com,,,200,Page fetched - manual verification required,https://apidocs.launchdarkly.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+PagerDuty,Developer Tools,https://www.pagerduty.com,https://developer.pagerduty.com/api-reference/,API Reference | PagerDuty Docs,"Interactive OpenAPI reference for the PagerDuty REST API, Events API, SCIM, MCP server, and integration APIs.",200,Page fetched - manual verification required,https://developer.pagerduty.com/api-reference/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Google Calendar,Productivity,https://calendar.google.com,https://developers.google.com/calendar/api,Google Calendar API overview  |  Google for Developers,,200,Page fetched - manual verification required,https://developers.google.com/calendar/api,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Calendly,Productivity,https://calendly.com,https://developer.calendly.com,Build with Calendly | Calendly | Developer Documentation,Explore our documentation to start building custom integrations,200,Page fetched - manual verification required,https://developer.calendly.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Miro,Productivity,https://miro.com,https://developers.miro.com,Miro Developer Platform,"The Miro Developer Platform enables developers to create apps and integrations on top of Miro boards to add extra or custom functionality, and to sync Miro with third-party products.",200,Page fetched - manual verification required,https://developers.miro.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Figma,Productivity,https://www.figma.com,https://developers.figma.com,Figma Developer Docs | Developer Docs,Figma Developer Documentation,200,Page fetched - manual verification required,https://developers.figma.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Confluence,Productivity,https://www.atlassian.com/software/confluence,https://developer.atlassian.com/cloud/confluence/rest/,The Confluence Cloud REST API,,200,Page fetched - manual verification required,https://developer.atlassian.com/cloud/confluence/rest/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Discord Bots,Communication,https://discord.com,https://discord.com/developers/docs,Discord Developer Platform - Documentation - Discord,"Build bots and integrations on Discord, or connect your game with rich presence, voice chat, and more.",200,Page fetched - manual verification required,https://discord.com/developers/docs,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+WhatsApp Business,Communication,https://business.whatsapp.com,https://developers.facebook.com/docs/whatsapp,WhatsApp Business Platform | Meta for Developers,,200,Page fetched - manual verification required,https://developers.facebook.com/docs/whatsapp,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Freshdesk,Communication,https://www.freshworks.com/freshdesk,https://developers.freshdesk.com/api/,Freshdesk,Freshdesk API,200,Page fetched - manual verification required,https://developers.freshdesk.com/api/,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Gusto,CRM,https://gusto.com,https://docs.gusto.com,Gusto Docs,,200,Page fetched - manual verification required,https://docs.gusto.com,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+QuickBooks,Payments,https://quickbooks.intuit.com,https://developer.intuit.com/app/developer/qbo/docs/api/accounting/all-entities/account,Intuit Developer,,200,Page fetched - manual verification required,https://developer.intuit.com/app/developer/qbo/docs/api/accounting/all-entities/account,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
+Xero,Payments,https://www.xero.com,https://developer.xero.com/documentation/api/accounting/overview,Accounting API Overview â Xero Developer,,200,Page fetched - manual verification required,https://developer.xero.com/documentation/api/accounting/overview,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Not verified,Needs official documentation review
