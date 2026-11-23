@@ -1,66 +1,65 @@
-﻿# Mapping the Composio App Ecosystem
+﻿
+# Composio App Ecosystem Research
 
-## Project Overview
+A Python-based research pipeline for examining 100 applications across 10 categories, comparing them with the Composio toolkit catalogue, collecting documentation information, and reviewing authentication and credential accessibility.
 
-This project researches 100 popular applications across nine categories to understand their API availability, authentication methods, credential accessibility, and integration feasibility with Composio.
+## Research results
 
-It combines automated documentation inspection, Composio toolkit catalogue extraction, name matching, authentication analysis, and manual verification.
+- Target applications: 100
+- Categories: 10, with 10 apps per category
+- Composio toolkit records collected: 1,842
+- Exact-name catalogue matches: 69 (69%)
+- Documentation pages fetched: 96
+- HTTP responses requiring manual review: 3
+- Missing documentation URL: 1
+- Credential records verified against official documentation: 5
+- Credential records pending verification: 95
 
-## Key Findings
+**Important:** Exact-name matches do not prove complete integration coverage. Documentation fetch success does not confirm API functionality or buildability. Credential verification is currently limited to five applications.
 
-- 100 target applications researched.
-- 1,842 Composio toolkit records collected.
-- 72 exact-name matches (72% catalogue coverage).
-- 10 applications included in the credential-access verification sample.
-- 99 of 100 documentation pages returned HTTP 200.
+## Research approach
 
-## Research Method
+1. Load the 100 target applications from `data/apps.csv`.
+2. Fetch documentation URLs using Python Requests and BeautifulSoup.
+3. Record page titles, descriptions, response codes and evidence URLs.
+4. Collect toolkit records using the Composio SDK.
+5. Compare normalized application names with toolkit names and slugs.
+6. Calculate category-level coverage and catalogue authentication patterns.
+7. Review credential-access information against official documentation.
+8. Combine results into a consolidated CSV and HTML report.
 
-1. Inspect application documentation pages.
-2. Collect toolkit records using the Composio SDK.
-3. Compare target application names with the Composio catalogue.
-4. Analyse authentication patterns.
-5. Review credential-access requirements against official documentation.
-6. Generate an HTML case study.
+## Project structure
 
-## Verification and Limitations
-
-The research is not a complete manual audit of all 100 applications.
-
-- 1 application has a fully verified research record.
-- 9 additional applications have credential-access verification only.
-- 89 applications still have pending research fields.
-- 1 application requires manual review.
-
-Exact-name matching may miss applications listed under aliases or different toolkit names. Candidate aliases require manual confirmation.
-
-Automated HTTP success does not establish that an API is complete, accessible, or easy to integrate.
-
-## Project Structure
-
-- `main.py` - documentation research pipeline.
-- `data/` - target applications and research datasets.
-- `src/` - research, Composio extraction, analysis, and report scripts.
-- `output/` - generated research results and HTML case study.
-- `index.html` - GitHub Pages homepage.
-- `requirements.txt` - Python dependencies.
-
-## Requirements
-
-- Python 3.12 or compatible version.
-- Internet connection.
-- Composio Project API key for catalogue extraction.
+```text
+composio-research-agent/
+├── data/
+│   ├── apps.csv
+│   ├── app_composio_comparison.csv
+│   └── composio_toolkits.csv
+├── output/
+│   ├── final_research.csv
+│   ├── research_results.csv
+│   ├── credential_access_review.csv
+│   ├── auth_distribution.csv
+│   └── case_study.html
+├── src/
+│   ├── build_case_study.py
+│   ├── combine_final_research.py
+│   ├── compare_apps.py
+│   ├── coverage_summary.py
+│   ├── export_composio_catalogue.py
+│   └── rebuild_credential_review.py
+├── main.py
+├── requirements.txt
+├── README.md
+└── index.html
+```
 
 ## Setup
 
-Clone the repository:
+Python 3.12 or later is recommended.
 
-```bash
-git clone https://github.com/neethureddych/composio-research-agent.git
-cd composio-research-agent
-```
-
-Create and activate a virtual environment on Windows:
+Create and activate a virtual environment:
 
 ```powershell
 python -m venv venv
@@ -69,42 +68,63 @@ python -m venv venv
 
 Install dependencies:
 
-```bash
+```powershell
 pip install -r requirements.txt
 ```
 
-## Run the Research
-
-Run the documentation research script:
-
-```bash
-python main.py
-```
-
-To export the Composio toolkit catalogue, configure your Composio Project API key in a local `.env` file:
+Create a `.env` file in the project root and add your own Composio Project API key:
 
 ```text
 COMPOSIO_API_KEY=your_project_api_key
 ```
 
-Then run:
+Do not commit `.env` or share API keys.
 
-```bash
+## Run the research pipeline
+
+Fetch documentation information:
+
+```powershell
+python main.py
+```
+
+Collect Composio toolkit records:
+
+```powershell
 python src/export_composio_catalogue.py
 ```
 
-Never commit your `.env` file or expose your API key.
+Compare target apps with the catalogue:
 
-## View the Case Study
+```powershell
+python src/compare_apps.py
+```
 
-Open `index.html` in a browser or visit the published GitHub Pages website:
+Combine research results:
 
-https://neethureddych.github.io/composio-research-agent/
+```powershell
+python src/combine_final_research.py
+```
 
-## Human Review
+Generate the HTML report:
 
-The pipeline automates documentation inspection, catalogue extraction, matching, and analysis. Human review is still needed to confirm API permissions, credential requirements, aliases, and integration feasibility.
+```powershell
+python src/build_case_study.py
+```
 
-## Author
+Open the generated report:
 
-Composio AI Product Operations Intern Take-Home Assignment.
+```powershell
+Start-Process output/case_study.html
+```
+
+## Limitations and future work
+
+- Exact-name matching may miss integrations listed under alternate names.
+- Potential aliases require human confirmation.
+- Automated page fetching does not verify API functionality.
+- Most credential-access records remain pending official documentation review.
+- API breadth, MCP support, and workflow-specific buildability require further verification.
+- HTTP errors may reflect automated-request restrictions rather than API unavailability.
+
+The report intentionally distinguishes automated findings from manually verified information.

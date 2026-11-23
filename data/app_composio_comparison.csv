@@ -1,101 +1,101 @@
 ﻿app_name,category,composio_match,toolkit_name,toolkit_slug,auth_schemes
-Slack,Communication,Found in Composio catalogue,Slack,slack,OAUTH2
-Discord,Communication,Found in Composio catalogue,Discord,discord,OAUTH2
-Microsoft Teams,Communication,Found in Composio catalogue,Microsoft Teams,microsoft_teams,OAUTH2; S2S_OAUTH2
-Zoom,Communication,Found in Composio catalogue,Zoom,zoom,OAUTH2
-Google Meet,Communication,Found in Composio catalogue,Google Meet,googlemeet,OAUTH2
-Gmail,Communication,Found in Composio catalogue,Gmail,gmail,OAUTH2
-Outlook,Communication,Found in Composio catalogue,Outlook,outlook,OAUTH2; S2S_OAUTH2
-Intercom,Communication,Found in Composio catalogue,Intercom,intercom,OAUTH2
-Zendesk,Communication,Found in Composio catalogue,Zendesk,zendesk,OAUTH2
-Twilio,Communication,Found in Composio catalogue,Twilio,twilio,API_KEY; BASIC; S2S_OAUTH2
-Notion,Productivity,Found in Composio catalogue,Notion,notion,OAUTH2; API_KEY
-Asana,Productivity,Found in Composio catalogue,Asana,asana,OAUTH2
-Trello,Productivity,Found in Composio catalogue,Trello,trello,OAUTH1
-Jira,Productivity,Found in Composio catalogue,Jira,jira,OAUTH2; S2S_OAUTH2; API_KEY
-Linear,Productivity,Found in Composio catalogue,Linear,linear,OAUTH2; API_KEY
-ClickUp,Productivity,Found in Composio catalogue,ClickUp,clickup,OAUTH2; API_KEY
-Monday.com,Productivity,Not found by exact name match,,,
-Airtable,Productivity,Found in Composio catalogue,Airtable,airtable,OAUTH2; API_KEY
-Todoist,Productivity,Found in Composio catalogue,Todoist,todoist,OAUTH2
-Evernote,Productivity,Not found by exact name match,,,
-Google Drive,Storage,Found in Composio catalogue,Google Drive,googledrive,OAUTH2
-Dropbox,Storage,Found in Composio catalogue,Dropbox,dropbox,OAUTH2
-OneDrive,Storage,Found in Composio catalogue,OneDrive,one_drive,OAUTH2; S2S_OAUTH2
-Box,Storage,Found in Composio catalogue,Box,box,OAUTH2
-Google Cloud Storage,Storage,Not found by exact name match,,,
-AWS S3,Storage,Not found by exact name match,,,
-Cloudinary,Storage,Found in Composio catalogue,Cloudinary,cloudinary,API_KEY
-Supabase,Storage,Found in Composio catalogue,Supabase,supabase,OAUTH2; API_KEY
-Firebase,Storage,Found in Composio catalogue,Firebase,firebase,API_KEY
-Imgur,Storage,Not found by exact name match,,,
-HubSpot,CRM,Found in Composio catalogue,HubSpot,hubspot,OAUTH2; API_KEY
-Salesforce,CRM,Found in Composio catalogue,Salesforce,salesforce,OAUTH2; S2S_OAUTH2
-Pipedrive,CRM,Found in Composio catalogue,Pipedrive,pipedrive,OAUTH2; API_KEY
-Zoho CRM,CRM,Not found by exact name match,,,
-Freshsales,CRM,Found in Composio catalogue,Freshsales,freshsales,API_KEY; OAUTH2
-Copper,CRM,Found in Composio catalogue,Copper,copper,API_KEY
-Close,CRM,Found in Composio catalogue,Close,close,API_KEY
-Keap,CRM,Not found by exact name match,,,
-ActiveCampaign,CRM,Found in Composio catalogue,ActiveCampaign,active_campaign,API_KEY
-Intercom CRM,CRM,Not found by exact name match,,,
-Stripe,Payments,Found in Composio catalogue,Stripe,stripe,API_KEY; OAUTH2
-PayPal,Payments,Found in Composio catalogue,Paypal,paypal,S2S_OAUTH2
-Razorpay,Payments,Found in Composio catalogue,Razorpay,razorpay,API_KEY; OAUTH2
-Square,Payments,Found in Composio catalogue,Square,square,OAUTH2
-Adyen,Payments,Not found by exact name match,,,
-Braintree,Payments,Not found by exact name match,,,
-Wise,Payments,Found in Composio catalogue,Wise,wise,API_KEY
-Mollie,Payments,Not found by exact name match,,,
-Chargebee,Payments,Not found by exact name match,,,
-Paddle,Payments,Not found by exact name match,,,
-Shopify,E-commerce,Found in Composio catalogue,Shopify,shopify,OAUTH2; S2S_OAUTH2
-WooCommerce,E-commerce,Not found by exact name match,,,
-BigCommerce,E-commerce,Found in Composio catalogue,BigCommerce,bigcommerce,API_KEY; OAUTH2
-Magento,E-commerce,Not found by exact name match,,,
-Etsy,E-commerce,Not found by exact name match,,,
-eBay,E-commerce,Found in Composio catalogue,eBay,ebay,S2S_OAUTH2
-Amazon Selling Partner,E-commerce,Not found by exact name match,,,
-Wix,E-commerce,Found in Composio catalogue,Wix,wix,OAUTH2; API_KEY
-Squarespace,E-commerce,Not found by exact name match,,,
-Webflow,E-commerce,Found in Composio catalogue,Webflow,webflow,OAUTH2; API_KEY
-Mailchimp,Marketing,Found in Composio catalogue,Mailchimp,mailchimp,OAUTH2
-Brevo,Marketing,Found in Composio catalogue,Brevo,brevo,API_KEY; OAUTH2
-Klaviyo,Marketing,Found in Composio catalogue,Klaviyo,klaviyo,API_KEY; OAUTH2
-ConvertKit,Marketing,Not found by exact name match,,,
-Customer.io,Marketing,Found in Composio catalogue,Customer.io,customerio,API_KEY
-SendGrid,Marketing,Found in Composio catalogue,SendGrid,sendgrid,API_KEY
-Postmark,Marketing,Found in Composio catalogue,Postmark,postmark,API_KEY
-Campaign Monitor,Marketing,Not found by exact name match,,,
-Marketo,Marketing,Not found by exact name match,,,
-Plausible,Analytics,Not found by exact name match,,,
-Google Analytics,Analytics,Found in Composio catalogue,Google Analytics,google_analytics,OAUTH2
-Mixpanel,Analytics,Found in Composio catalogue,Mixpanel,mixpanel,BASIC
-Amplitude,Analytics,Found in Composio catalogue,Amplitude,amplitude,API_KEY
-PostHog,Analytics,Found in Composio catalogue,PostHog,posthog,API_KEY
-Segment,Analytics,Found in Composio catalogue,Segment,segment,API_KEY
-Heap,Analytics,Not found by exact name match,,,
-Matomo,Analytics,Not found by exact name match,,,
-Datadog,Analytics,Found in Composio catalogue,Datadog,datadog,OAUTH2; API_KEY; BEARER_TOKEN
-Sentry,Analytics,Found in Composio catalogue,Sentry,sentry,OAUTH2
-GitHub,Developer Tools,Found in Composio catalogue,GitHub,github,OAUTH2
-GitLab,Developer Tools,Found in Composio catalogue,GitLab,gitlab,OAUTH2; API_KEY
-Bitbucket,Developer Tools,Found in Composio catalogue,Bitbucket,bitbucket,OAUTH2
-Vercel,Developer Tools,Found in Composio catalogue,Vercel,vercel,OAUTH2; API_KEY
-Netlify,Developer Tools,Not found by exact name match,,,
-Sentry Dev,Developer Tools,Not found by exact name match,,,
-Postman,Developer Tools,Found in Composio catalogue,Postman,postman,API_KEY
-Docker Hub,Developer Tools,Found in Composio catalogue,Docker Hub,docker_hub,API_KEY
-LaunchDarkly,Developer Tools,Found in Composio catalogue,LaunchDarkly,launch_darkly,API_KEY; OAUTH2
-PagerDuty,Developer Tools,Found in Composio catalogue,PagerDuty,pagerduty,OAUTH2; API_KEY
-Google Calendar,Productivity,Found in Composio catalogue,Google Calendar,googlecalendar,OAUTH2
-Calendly,Productivity,Found in Composio catalogue,Calendly,calendly,OAUTH2
-Miro,Productivity,Found in Composio catalogue,Miro,miro,OAUTH2
-Figma,Productivity,Found in Composio catalogue,Figma,figma,OAUTH2; API_KEY
-Confluence,Productivity,Found in Composio catalogue,Confluence,confluence,OAUTH2; S2S_OAUTH2; API_KEY
-Discord Bots,Communication,Not found by exact name match,,,
-WhatsApp Business,Communication,Not found by exact name match,,,
-Freshdesk,Communication,Found in Composio catalogue,Freshdesk,freshdesk,API_KEY
-Gusto,CRM,Found in Composio catalogue,Gusto,gusto,OAUTH2
-QuickBooks,Payments,Found in Composio catalogue,QuickBooks,quickbooks,OAUTH2
-Xero,Payments,Found in Composio catalogue,Xero,xero,OAUTH2
+Salesforce,CRM and Sales,Found in Composio catalogue,Salesforce,salesforce,OAUTH2; S2S_OAUTH2
+HubSpot,CRM and Sales,Found in Composio catalogue,HubSpot,hubspot,OAUTH2; API_KEY
+Pipedrive,CRM and Sales,Found in Composio catalogue,Pipedrive,pipedrive,OAUTH2; API_KEY
+Attio,CRM and Sales,Found in Composio catalogue,Attio,attio,OAUTH2
+Twenty,CRM and Sales,Found in Composio catalogue,Twenty,twenty,API_KEY
+Podio,CRM and Sales,Found in Composio catalogue,Podio,podio,OAUTH2
+Zoho CRM,CRM and Sales,Not found by exact name match,,,
+Close,CRM and Sales,Found in Composio catalogue,Close,close,API_KEY
+Copper,CRM and Sales,Found in Composio catalogue,Copper,copper,API_KEY
+DealCloud,CRM and Sales,Not found by exact name match,,,
+Zendesk,Support and Helpdesk,Found in Composio catalogue,Zendesk,zendesk,OAUTH2
+Intercom,Support and Helpdesk,Found in Composio catalogue,Intercom,intercom,OAUTH2
+Freshdesk,Support and Helpdesk,Found in Composio catalogue,Freshdesk,freshdesk,API_KEY
+Front,Support and Helpdesk,Found in Composio catalogue,Front,front,API_KEY; OAUTH2
+Pylon,Support and Helpdesk,Not found by exact name match,,,
+LiveAgent,Support and Helpdesk,Not found by exact name match,,,
+Plain,Support and Helpdesk,Found in Composio catalogue,Plain,plain,API_KEY
+Help Scout,Support and Helpdesk,Found in Composio catalogue,Help Scout,help_scout,OAUTH2
+Gorgias,Support and Helpdesk,Found in Composio catalogue,Gorgias,gorgias,API_KEY; OAUTH2
+Gladly,Support and Helpdesk,Not found by exact name match,,,
+Slack,Communications and Messaging,Found in Composio catalogue,Slack,slack,OAUTH2
+Twilio,Communications and Messaging,Found in Composio catalogue,Twilio,twilio,API_KEY; BASIC; S2S_OAUTH2
+Zoho Cliq,Communications and Messaging,Found in Composio catalogue,Zoho Cliq,zoho_cliq,OAUTH2
+Lark (Larksuite),Communications and Messaging,Not found by exact name match,,,
+Pumble,Communications and Messaging,Found in Composio catalogue,Pumble,pumble,API_KEY
+Discord,Communications and Messaging,Found in Composio catalogue,Discord,discord,OAUTH2
+Telegram,Communications and Messaging,Found in Composio catalogue,Telegram,telegram,API_KEY
+WhatsApp Business,Communications and Messaging,Not found by exact name match,,,
+Aircall,Communications and Messaging,Found in Composio catalogue,Aircall,aircall,OAUTH2; BASIC
+Vonage,Communications and Messaging,Not found by exact name match,,,
+Google Ads,"Marketing, Ads, Email and Social",Found in Composio catalogue,Google Ads,googleads,OAUTH2
+Meta Ads,"Marketing, Ads, Email and Social",Found in Composio catalogue,Meta Ads,metaads,OAUTH2; API_KEY
+LinkedIn Ads,"Marketing, Ads, Email and Social",Found in Composio catalogue,Linkedin Ads,linkedin_ads,OAUTH2
+GoHighLevel,"Marketing, Ads, Email and Social",Not found by exact name match,,,
+Mailchimp,"Marketing, Ads, Email and Social",Found in Composio catalogue,Mailchimp,mailchimp,OAUTH2
+Klaviyo,"Marketing, Ads, Email and Social",Found in Composio catalogue,Klaviyo,klaviyo,API_KEY; OAUTH2
+systeme.io,"Marketing, Ads, Email and Social",Not found by exact name match,,,
+Pinterest,"Marketing, Ads, Email and Social",Found in Composio catalogue,Pinterest,pinterest,OAUTH2
+Threads (Meta),"Marketing, Ads, Email and Social",Not found by exact name match,,,
+SendGrid,"Marketing, Ads, Email and Social",Found in Composio catalogue,SendGrid,sendgrid,API_KEY
+Shopify,Ecommerce,Found in Composio catalogue,Shopify,shopify,OAUTH2; S2S_OAUTH2
+WooCommerce,Ecommerce,Not found by exact name match,,,
+BigCommerce,Ecommerce,Found in Composio catalogue,BigCommerce,bigcommerce,API_KEY; OAUTH2
+Salesforce Commerce Cloud,Ecommerce,Not found by exact name match,,,
+Magento (Adobe Commerce),Ecommerce,Not found by exact name match,,,
+Squarespace,Ecommerce,Not found by exact name match,,,
+Ecwid,Ecommerce,Not found by exact name match,,,
+Gumroad,Ecommerce,Found in Composio catalogue,Gumroad,gumroad,OAUTH2
+Amazon Selling Partner,Ecommerce,Not found by exact name match,,,
+fanbasis,Ecommerce,Not found by exact name match,,,
+DataForSEO,"Data, SEO and Scraping",Found in Composio catalogue,DataForSEO,dataforseo,BASIC
+SE Ranking,"Data, SEO and Scraping",Not found by exact name match,,,
+Ahrefs,"Data, SEO and Scraping",Found in Composio catalogue,Ahrefs,ahrefs,API_KEY; OAUTH2
+MrScraper,"Data, SEO and Scraping",Found in Composio catalogue,MrScraper,mrscraper,API_KEY
+Apify,"Data, SEO and Scraping",Found in Composio catalogue,Apify,apify,API_KEY
+Firecrawl,"Data, SEO and Scraping",Found in Composio catalogue,Firecrawl,firecrawl,API_KEY
+Bright Data,"Data, SEO and Scraping",Found in Composio catalogue,Bright Data,brightdata,API_KEY
+Sherlock,"Data, SEO and Scraping",Not found by exact name match,,,
+Waterfall.io,"Data, SEO and Scraping",Not found by exact name match,,,
+Clay,"Data, SEO and Scraping",Found in Composio catalogue,Clay,clay,API_KEY
+GitHub,"Developer, Infra and Data Platforms",Found in Composio catalogue,GitHub,github,OAUTH2
+Vercel,"Developer, Infra and Data Platforms",Found in Composio catalogue,Vercel,vercel,OAUTH2; API_KEY
+Netlify,"Developer, Infra and Data Platforms",Not found by exact name match,,,
+Cloudflare,"Developer, Infra and Data Platforms",Found in Composio catalogue,Cloudflare,cloudflare,API_KEY
+Supabase,"Developer, Infra and Data Platforms",Found in Composio catalogue,Supabase,supabase,OAUTH2; API_KEY
+Neo4j,"Developer, Infra and Data Platforms",Found in Composio catalogue,Neo4J,neo4j,OAUTH2; BASIC; API_KEY; S2S_OAUTH2
+Snowflake,"Developer, Infra and Data Platforms",Found in Composio catalogue,Snowflake,snowflake,OAUTH2
+MongoDB Atlas,"Developer, Infra and Data Platforms",Not found by exact name match,,,
+Datadog,"Developer, Infra and Data Platforms",Found in Composio catalogue,Datadog,datadog,OAUTH2; API_KEY; BEARER_TOKEN
+Sentry,"Developer, Infra and Data Platforms",Found in Composio catalogue,Sentry,sentry,OAUTH2
+Notion,Productivity and Project Management,Found in Composio catalogue,Notion,notion,OAUTH2; API_KEY
+Airtable,Productivity and Project Management,Found in Composio catalogue,Airtable,airtable,OAUTH2; API_KEY
+Linear,Productivity and Project Management,Found in Composio catalogue,Linear,linear,OAUTH2; API_KEY
+Jira,Productivity and Project Management,Found in Composio catalogue,Jira,jira,OAUTH2; S2S_OAUTH2; API_KEY
+Asana,Productivity and Project Management,Found in Composio catalogue,Asana,asana,OAUTH2
+Monday.com,Productivity and Project Management,Not found by exact name match,,,
+ClickUp,Productivity and Project Management,Found in Composio catalogue,ClickUp,clickup,OAUTH2; API_KEY
+Coda,Productivity and Project Management,Found in Composio catalogue,Coda,coda,API_KEY
+Smartsheet,Productivity and Project Management,Found in Composio catalogue,Smartsheet,smartsheet,OAUTH2; BEARER_TOKEN
+Harvest,Productivity and Project Management,Found in Composio catalogue,Harvest,harvest,OAUTH2
+Stripe,Finance and Fintech,Found in Composio catalogue,Stripe,stripe,API_KEY; OAUTH2
+Plaid,Finance and Fintech,Found in Composio catalogue,Plaid,plaid,API_KEY
+Binance,Finance and Fintech,Not found by exact name match,,,
+Paygent Connect,Finance and Fintech,Not found by exact name match,,,
+iPayX,Finance and Fintech,Not found by exact name match,,,
+QuickBooks,Finance and Fintech,Found in Composio catalogue,QuickBooks,quickbooks,OAUTH2
+Xero,Finance and Fintech,Found in Composio catalogue,Xero,xero,OAUTH2
+Brex,Finance and Fintech,Found in Composio catalogue,Brex,brex,OAUTH2; API_KEY
+Ramp,Finance and Fintech,Found in Composio catalogue,Ramp,ramp,OAUTH2
+PitchBook,Finance and Fintech,Found in Composio catalogue,PitchBook,pitchbook,API_KEY
+NotebookLM,"AI, Research and Media-native",Found in Composio catalogue,NotebookLM,notebook_lm,OAUTH2
+Otter AI,"AI, Research and Media-native",Not found by exact name match,,,
+Fathom,"AI, Research and Media-native",Found in Composio catalogue,Fathom,fathom,OAUTH2; API_KEY
+Consensus,"AI, Research and Media-native",Found in Composio catalogue,Consensus,consensus,API_KEY
+Reducto,"AI, Research and Media-native",Not found by exact name match,,,
+Devin,"AI, Research and Media-native",Not found by exact name match,,,
+higgsfield,"AI, Research and Media-native",Found in Composio catalogue,Higgsfield,higgsfield,API_KEY
+Mermaid CLI,"AI, Research and Media-native",Not found by exact name match,,,
+YouTube Transcript,"AI, Research and Media-native",Found in Composio catalogue,YouTube Transcript,youtube_transcript,API_KEY
+Grain,"AI, Research and Media-native",Found in Composio catalogue,Grain,grain,API_KEY
